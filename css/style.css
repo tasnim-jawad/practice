@@ -1,0 +1,22 @@
+.light{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 20PX 0PX;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center;
+}
+.container .gallery{}
+.container .gallery .img{
+    display: inline-block;
+    width: 32%;
+    margin-bottom: 20px;
+}
+.container .gallery .img img{
+    width: 100%;
+}
