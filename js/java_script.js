@@ -106,3 +106,12 @@ let student_info3 =[
 
 // console.log(student_info.sort(function(a, b){return b - a})[student_info.length - 1 ]);
 // console.log(student_info.sort(function(a, b){return a-b})[student_info.length - 1]);
+
+// console.log(student_info);
+
+// localStorage.setItem('student',JSON.stringify(student_info))
+localStorage.setItem('man',JSON.stringify(student_info))
+
+let paisi =JSON.parse( localStorage.getItem('man') ) ;
+
+console.log(paisi);
